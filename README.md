@@ -3,7 +3,7 @@
 # What to do later
   Write a home page with fancy HTML and fancy css attributes even though it will look terrible because I'm not a designer.
 
-#License
+# License
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
