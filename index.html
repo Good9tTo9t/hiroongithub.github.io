@@ -1,0 +1,59 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="favico.png" type="image/gif">
+    <title>Hiro's Homepage</title>
+    <script>
+        function toggleMode() {
+        if($("body").css("background-color") == "rgb(255, 255, 255)"){
+            $("body").css("background-color", "rgb(0, 0, 0)");
+            $("h1, a").css("color", "white");
+            $("button").css("color", "black");
+            $("button").css("background-color", "white");
+            $("button").html('<b>Light Mode</b>');
+
+        } else if($("body").css("background-color") == "rgb(0, 0, 0)"){
+            $("body").css("background-color", "rgb(255, 255, 255)");
+            $("h1, a").css("color", "black");
+            $("button").css("color", "white");
+            $("button").css("background-color", "black");
+            $("button").html('<b>Dark Mode</b>');
+            
+        }
+
+}
+    </script>
+    <style>
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    a, button{
+        color: black;
+        font-size: 10vh;
+    }
+    
+    button {
+        color: white;
+        background-color: black;
+    }</style>
+</head>
+
+
+<body>
+    <b>
+    <h1>Hello, this is a crappy homepage that is not impressive at all.</h1>
+    <a id="ig" href="https://www.instagram.com/keisukewu.exe//" target="_blank">Instagram</a>
+    <br>
+    <br>
+    <a id="yt" href="https://www.youtube.com/channel/UCLIjBB4xGlnmH7MIyEsfVOg" target="_blank">YouTube</a>
+    <br>
+    <br>
+    <a id="fb" href="https://www.facebook.com/HiroWu2006/" target="_blank">Facebook</a>
+    <br>
+    <br>
+    <button onclick="toggleMode()"><b>Dark Mode</b></button></a>
+    <b>
+</body>
+
+
+
